@@ -1,7 +1,6 @@
 [
   {
     "name": "School Supplies",
-    "link": "https://zyvlon.com/collections/school-supplies",
     "products": [
       {
         "name": "Ergonomic Gel Pen Set",
@@ -12,25 +11,53 @@
           "https://images.unsplash.com/photo-1598708521413-feaa4e69c01b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw0fHxFcmdvbm9taWMlMjBHZWwlMjBQZW4lMjBTZXR8ZW58MHx8fHwxNzM1NjIwMDU3fDA&ixlib=rb-4.0.3",
           "https://images.unsplash.com/photo-1471107340929-a87cd0f5b5f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw1fHxFcmdvbm9taWMlMjBHZWwlMjBQZW4lMjBTZXR8ZW58MHx8fHwxNzM1NjIwMDU3fDA&ixlib=rb-4.0.3"
         ],
-        "price": "$12.99",
+        "price": 12.99,
         "variants": [
           {
-            "color": "Blue",
-            "price": "$12.99"
+            "attributes": [
+              {
+                "name": "color",
+                "value": "Blue"
+              }
+            ],
+            "name": "Blue Gel Pen",
+            "sku": "GP-BLUE-001",
+            "stock": 100,
+            "price": 12.99,
+            "images": []
           },
           {
-            "color": "Black",
-            "price": "$12.99"
+            "attributes": [
+              {
+                "name": "color",
+                "value": "Black"
+              }
+            ],
+            "name": "Black Gel Pen",
+            "sku": "GP-BLACK-001",
+            "stock": 100,
+            "images": [],
+            "price": 12.99
           },
           {
-            "color": "Red",
-            "price": "$12.99"
+            "attributes": [
+              {
+                "name": "color",
+                "value": "Red"
+              }
+            ],
+            "name": "Red Gel Pen",
+            "sku": "GP-RED-001",
+            "stock": 100,
+            "images": [],
+            "price": 12.99
           }
         ],
         "description": "A set of ergonomic gel pens for smooth and comfortable writing. Available in multiple colors with a long-lasting ink supply.",
         "preorder": false,
         "shipping": "Ships worldwide with express tracking.",
-        "link": "https://zyvlon.com/collections/school-supplies/products/ergonomic-gel-pen-set"
+        "stock": 100,
+        "link": ""
       },
       {
         "name": "Eco-Friendly Notebook",
@@ -41,12 +68,52 @@
           "https://images.unsplash.com/photo-1612367980327-7454a7276aa7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw0fHxFY28tRnJpZW5kbHklMjBOb3RlYm9va3xlbnwwfHx8fDE3MzU2MjAwNTh8MA&ixlib=rb-4.0.3",
           "https://images.unsplash.com/photo-1587135991058-8816b028691f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw1fHxFY28tRnJpZW5kbHklMjBOb3RlYm9va3xlbnwwfHx8fDE3MzU2MjAwNTh8MA&ixlib=rb-4.0.3"
         ],
-        "price": "$8.50",
-        "variants": [],
+        "price": 8.5,
+        "variants": [
+          {
+            "attributes": [
+              {
+                "name": "color",
+                "value": "Green"
+              }
+            ],
+            "name": "Green Eco Notebook",
+            "sku": "EN-GREEN-001",
+            "stock": 25,
+            "price": 8.5,
+            "images": []
+          },
+          {
+            "attributes": [
+              {
+                "name": "color",
+                "value": "Brown"
+              }
+            ],
+            "name": "Brown Eco Notebook",
+            "sku": "EN-BROWN-001",
+            "stock": 25,
+            "images": [],
+            "price": 8.5
+          },
+          {
+            "attributes": [
+              {
+                "name": "color",
+                "value": "Natural"
+              }
+            ],
+            "name": "Natural Eco Notebook",
+            "sku": "EN-NATURAL-001",
+            "stock": 25,
+            "images": [],
+            "price": 8.5
+          }
+        ],
         "description": "A sustainable notebook made with recycled materials. Perfect for school, work, or journaling. Features a sturdy cover and lined pages.",
         "preorder": false,
         "shipping": "Ships worldwide with express tracking.",
-        "link": "https://zyvlon.com/collections/school-supplies/products/eco-friendly-notebook"
+        "stock": 75
       },
       {
         "name": "5-Subject Notebook",
@@ -57,21 +124,51 @@
           "https://images.unsplash.com/photo-1482746673045-d8c155829510?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw0fHw1LVN1YmplY3QlMjBOb3RlYm9va3xlbnwwfHx8fDE3MzU2MjAwNTh8MA&ixlib=rb-4.0.3",
           "https://images.unsplash.com/photo-1620034820088-5b46f0f64f0e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw1fHw1LVN1YmplY3QlMjBOb3RlYm9va3xlbnwwfHx8fDE3MzU2MjAwNTh8MA&ixlib=rb-4.0.3"
         ],
-        "price": "$7.50",
+        "price": 7.5,
         "variants": [
           {
-            "color": "Blue",
-            "size": "A4"
+            "attributes": [
+              {
+                "name": "color",
+                "value": "Green"
+              }
+            ],
+            "name": "Green 5-Subject Notebook",
+            "sku": "5SN-GREEN-001",
+            "stock": 50,
+            "price": 7.5,
+            "images": []
           },
           {
-            "color": "Red",
-            "size": "A5"
+            "attributes": [
+              {
+                "name": "color",
+                "value": "Blue"
+              }
+            ],
+            "name": "Blue 5-Subject Notebook",
+            "sku": "5SN-BLUE-001",
+            "stock": 50,
+            "price": 7.5,
+            "images": []
+          },
+          {
+            "attributes": [
+              {
+                "name": "color",
+                "value": "Black"
+              }
+            ],
+            "name": "Black 5-Subject Notebook",
+            "sku": "5SN-BLACK-001",
+            "stock": 50,
+            "price": 7.5,
+            "images": []
           }
         ],
         "description": "Durable 5-subject notebook with dividers for organized note-taking. Available in A4 and A5 sizes.",
         "preorder": false,
-        "shipping": "Free in-store pickup.",
-        "link": "https://zyvlon.com/collections/school-supplies/products/5-subject-notebook"
+        "stock": 150
       },
       {
         "name": "Graphing Calculator",
@@ -82,27 +179,175 @@
           "https://images.unsplash.com/photo-1716799323871-d82962608d7d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw0fHxHcmFwaGluZyUyMENhbGN1bGF0b3J8ZW58MHx8fHwxNzM1NjIwMDU4fDA&ixlib=rb-4.0.3",
           "https://images.unsplash.com/photo-1734856080638-71e78b3d8d5f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw1fHxHcmFwaGluZyUyMENhbGN1bGF0b3J8ZW58MHx8fHwxNzM1NjIwMDU4fDA&ixlib=rb-4.0.3"
         ],
-        "price": "$59.00",
+        "price": 59,
         "variants": [
           {
-            "color": "Black",
-            "model": "Advanced"
+            "attributes": [
+              {
+                "name": "color",
+                "value": "Black"
+              },
+              {
+                "name": "model",
+                "value": "Advanced"
+              }
+            ],
+            "name": "Advanced Black Graphing Calculator",
+            "sku": "GC-BLACK-ADV",
+            "stock": 25,
+            "price": 59,
+            "images": []
           },
           {
-            "color": "Silver",
-            "model": "Standard"
+            "attributes": [
+              {
+                "name": "color",
+                "value": "Silver"
+              },
+              {
+                "name": "model",
+                "value": "Standard"
+              }
+            ],
+            "name": "Standard Silver Graphing Calculator",
+            "sku": "GC-SILVER-STD",
+            "stock": 20,
+            "price": 59,
+            "images": []
           }
         ],
         "description": "A powerful graphing calculator for high school and college students. Includes advanced features for STEM subjects.",
         "preorder": false,
-        "shipping": "Free shipping on orders over $50.",
-        "link": "https://zyvlon.com/collections/school-supplies/products/graphing-calculator"
+        "stock": 45
+      },
+      {
+        "name": "Scientific Calculator",
+        "images": [
+          "https://images.unsplash.com/photo-1675242314995-034d11bac319?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwxfHxTY2llbnRpZmljJTIwQ2FsY3VsYXRvcnxlbnwwfHx8fDE3MzU2MjU3NzZ8MA&ixlib=rb-4.0.3&q=80&w=400",
+          "https://images.unsplash.com/photo-1545402138-0c105c73cb4d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwyfHxTY2llbnRpZmljJTIwQ2FsY3VsYXRvcnxlbnwwfHx8fDE3MzU2MjU3NzZ8MA&ixlib=rb-4.0.3&q=80&w=400",
+          "https://images.unsplash.com/photo-1574607383077-47ddc2dc51c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwzfHxTY2llbnRpZmljJTIwQ2FsY3VsYXRvcnxlbnwwfHx8fDE3MzU2MjU3NzZ8MA&ixlib=rb-4.0.3&q=80&w=400",
+          "https://images.unsplash.com/photo-1711921345010-d1147f78db35?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw0fHxTY2llbnRpZmljJTIwQ2FsY3VsYXRvcnxlbnwwfHx8fDE3MzU2MjU3NzZ8MA&ixlib=rb-4.0.3&q=80&w=400",
+          "https://images.unsplash.com/photo-1575468130861-a5295155e1d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw1fHxTY2llbnRpZmljJTIwQ2FsY3VsYXRvcnxlbnwwfHx8fDE3MzU2MjU3NzZ8MA&ixlib=rb-4.0.3&q=80&w=400"
+        ],
+        "price": 29.99,
+        "variants": [
+          {
+            "attributes": [
+              {
+                "name": "color",
+                "value": "White"
+              },
+              {
+                "name": "model",
+                "value": "Basic"
+              }
+            ],
+            "name": "Basic White Scientific Calculator",
+            "sku": "SC-WHITE-BASIC",
+            "stock": 30,
+            "price": 29.99,
+            "images": [
+              "https://images.unsplash.com/photo-1596275281743-e7399c7bdfa9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwxfHxTY2llbnRpZmljJTIwQ2FsY3VsYXRvciUyMEJhc2ljJTIwV2hpdGUlMjBTY2llbnRpZmljJTIwQ2FsY3VsYXRvcnxlbnwwfHx8fDE3MzU2MjU3NzZ8MA&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1596367407372-96cb88503db6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwyfHxTY2llbnRpZmljJTIwQ2FsY3VsYXRvciUyMEJhc2ljJTIwV2hpdGUlMjBTY2llbnRpZmljJTIwQ2FsY3VsYXRvcnxlbnwwfHx8fDE3MzU2MjU3NzZ8MA&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1554227231-54aa5db01c51?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwzfHxTY2llbnRpZmljJTIwQ2FsY3VsYXRvciUyMEJhc2ljJTIwV2hpdGUlMjBTY2llbnRpZmljJTIwQ2FsY3VsYXRvcnxlbnwwfHx8fDE3MzU2MjU3NzZ8MA&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1638132035918-90a22beaab3b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw0fHxTY2llbnRpZmljJTIwQ2FsY3VsYXRvciUyMEJhc2ljJTIwV2hpdGUlMjBTY2llbnRpZmljJTIwQ2FsY3VsYXRvcnxlbnwwfHx8fDE3MzU2MjU3NzZ8MA&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1566041510639-8d95a2490bfb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw1fHxTY2llbnRpZmljJTIwQ2FsY3VsYXRvciUyMEJhc2ljJTIwV2hpdGUlMjBTY2llbnRpZmljJTIwQ2FsY3VsYXRvcnxlbnwwfHx8fDE3MzU2MjU3NzZ8MA&ixlib=rb-4.0.3&q=80&w=400"
+            ]
+          },
+          {
+            "attributes": [
+              {
+                "name": "color",
+                "value": "Black"
+              },
+              {
+                "name": "model",
+                "value": "Pro"
+              }
+            ],
+            "name": "Pro Black Scientific Calculator",
+            "sku": "SC-BLACK-PRO",
+            "stock": 25,
+            "price": 39.99,
+            "images": [
+              "https://images.unsplash.com/photo-1650954316166-c3361fefcc87?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwxfHxTY2llbnRpZmljJTIwQ2FsY3VsYXRvciUyMFBybyUyMEJsYWNrJTIwU2NpZW50aWZpYyUyMENhbGN1bGF0b3J8ZW58MHx8fHwxNzM1NjI1Nzc3fDA&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1569470451072-68314f596aec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwyfHxTY2llbnRpZmljJTIwQ2FsY3VsYXRvciUyMFBybyUyMEJsYWNrJTIwU2NpZW50aWZpYyUyMENhbGN1bGF0b3J8ZW58MHx8fHwxNzM1NjI1Nzc3fDA&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1531857414472-edf16a1bb78c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwzfHxTY2llbnRpZmljJTIwQ2FsY3VsYXRvciUyMFBybyUyMEJsYWNrJTIwU2NpZW50aWZpYyUyMENhbGN1bGF0b3J8ZW58MHx8fHwxNzM1NjI1Nzc3fDA&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1637775297458-7443ffd545b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw0fHxTY2llbnRpZmljJTIwQ2FsY3VsYXRvciUyMFBybyUyMEJsYWNrJTIwU2NpZW50aWZpYyUyMENhbGN1bGF0b3J8ZW58MHx8fHwxNzM1NjI1Nzc3fDA&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1650220796556-22f512aec67f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw1fHxTY2llbnRpZmljJTIwQ2FsY3VsYXRvciUyMFBybyUyMEJsYWNrJTIwU2NpZW50aWZpYyUyMENhbGN1bGF0b3J8ZW58MHx8fHwxNzM1NjI1Nzc3fDA&ixlib=rb-4.0.3&q=80&w=400"
+            ]
+          }
+        ],
+        "description": "Perfect for basic scientific calculations. Features trigonometric functions and statistical operations.",
+        "preorder": false,
+        "stock": 55
+      },
+      {
+        "name": "Basic Calculator",
+        "images": [
+          "https://images.unsplash.com/photo-1545402138-0c105c73cb4d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwxfHxCYXNpYyUyMENhbGN1bGF0b3J8ZW58MHx8fHwxNzM1NjI1Nzc3fDA&ixlib=rb-4.0.3&q=80&w=400",
+          "https://images.unsplash.com/photo-1574607383077-47ddc2dc51c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwyfHxCYXNpYyUyMENhbGN1bGF0b3J8ZW58MHx8fHwxNzM1NjI1Nzc3fDA&ixlib=rb-4.0.3&q=80&w=400",
+          "https://images.unsplash.com/photo-1608303588026-884930af2559?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwzfHxCYXNpYyUyMENhbGN1bGF0b3J8ZW58MHx8fHwxNzM1NjI1Nzc3fDA&ixlib=rb-4.0.3&q=80&w=400",
+          "https://images.unsplash.com/photo-1518216049389-a6ce1f175e59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw0fHxCYXNpYyUyMENhbGN1bGF0b3J8ZW58MHx8fHwxNzM1NjI1Nzc3fDA&ixlib=rb-4.0.3&q=80&w=400",
+          "https://images.unsplash.com/photo-1516201580490-33550d32de5c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw1fHxCYXNpYyUyMENhbGN1bGF0b3J8ZW58MHx8fHwxNzM1NjI1Nzc3fDA&ixlib=rb-4.0.3&q=80&w=400"
+        ],
+        "price": 15.99,
+        "variants": [
+          {
+            "attributes": [
+              {
+                "name": "color",
+                "value": "Blue"
+              },
+              {
+                "name": "type",
+                "value": "Solar"
+              }
+            ],
+            "name": "Solar Blue Basic Calculator",
+            "sku": "BC-BLUE-SOLAR",
+            "stock": 40,
+            "price": 15.99,
+            "images": [
+              "https://images.unsplash.com/photo-1559919304-00f415bab202?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwxfHxCYXNpYyUyMENhbGN1bGF0b3IlMjBTb2xhciUyMEJsdWUlMjBCYXNpYyUyMENhbGN1bGF0b3J8ZW58MHx8fHwxNzM1NjI1Nzc4fDA&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1604856420566-576ba98b53cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwyfHxCYXNpYyUyMENhbGN1bGF0b3IlMjBTb2xhciUyMEJsdWUlMjBCYXNpYyUyMENhbGN1bGF0b3J8ZW58MHx8fHwxNzM1NjI1Nzc4fDA&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1696777406868-5258913ef41d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwzfHxCYXNpYyUyMENhbGN1bGF0b3IlMjBTb2xhciUyMEJsdWUlMjBCYXNpYyUyMENhbGN1bGF0b3J8ZW58MHx8fHwxNzM1NjI1Nzc4fDA&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1632547804201-802c799a10fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw0fHxCYXNpYyUyMENhbGN1bGF0b3IlMjBTb2xhciUyMEJsdWUlMjBCYXNpYyUyMENhbGN1bGF0b3J8ZW58MHx8fHwxNzM1NjI1Nzc4fDA&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1606978297876-ca1d2a75e631?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw1fHxCYXNpYyUyMENhbGN1bGF0b3IlMjBTb2xhciUyMEJsdWUlMjBCYXNpYyUyMENhbGN1bGF0b3J8ZW58MHx8fHwxNzM1NjI1Nzc4fDA&ixlib=rb-4.0.3&q=80&w=400"
+            ]
+          },
+          {
+            "attributes": [
+              {
+                "name": "color",
+                "value": "Pink"
+              },
+              {
+                "name": "type",
+                "value": "Battery"
+              }
+            ],
+            "name": "Battery Pink Basic Calculator",
+            "sku": "BC-PINK-BATT",
+            "stock": 35,
+            "price": 12.99,
+            "images": [
+              "https://images.unsplash.com/photo-1586809764311-090bc6068916?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwxfHxCYXNpYyUyMENhbGN1bGF0b3IlMjBCYXR0ZXJ5JTIwUGluayUyMEJhc2ljJTIwQ2FsY3VsYXRvcnxlbnwwfHx8fDE3MzU2MjU3Nzh8MA&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1588097257570-59b6f7360bfb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwyfHxCYXNpYyUyMENhbGN1bGF0b3IlMjBCYXR0ZXJ5JTIwUGluayUyMEJhc2ljJTIwQ2FsY3VsYXRvcnxlbnwwfHx8fDE3MzU2MjU3Nzh8MA&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1559762705-2123aa9b467f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwzfHxCYXNpYyUyMENhbGN1bGF0b3IlMjBCYXR0ZXJ5JTIwUGluayUyMEJhc2ljJTIwQ2FsY3VsYXRvcnxlbnwwfHx8fDE3MzU2MjU3Nzh8MA&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1548504778-b14db6c34b04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw0fHxCYXNpYyUyMENhbGN1bGF0b3IlMjBCYXR0ZXJ5JTIwUGluayUyMEJhc2ljJTIwQ2FsY3VsYXRvcnxlbnwwfHx8fDE3MzU2MjU3Nzh8MA&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1559251606-c623743a6d76?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw1fHxCYXNpYyUyMENhbGN1bGF0b3IlMjBCYXR0ZXJ5JTIwUGluayUyMEJhc2ljJTIwQ2FsY3VsYXRvcnxlbnwwfHx8fDE3MzU2MjU3Nzh8MA&ixlib=rb-4.0.3&q=80&w=400"
+            ]
+          }
+        ],
+        "description": "Simple and reliable calculator for everyday calculations. Perfect for home or office use.",
+        "preorder": false,
+        "stock": 75
       }
     ]
   },
   {
     "name": "Computer Accessories",
-    "link": "https://zyvlon.com/collections/computer-accessories",
     "products": [
       {
         "name": "RGB Gaming Mouse Pad",
@@ -113,25 +358,51 @@
           "https://images.unsplash.com/photo-1534423861386-85a16f5d13fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw0fHxSR0IlMjBHYW1pbmclMjBNb3VzZSUyMFBhZHxlbnwwfHx8fDE3MzU2MjAwNTl8MA&ixlib=rb-4.0.3",
           "https://images.unsplash.com/photo-1511512578047-dfb367046420?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw1fHxSR0IlMjBHYW1pbmclMjBNb3VzZSUyMFBhZHxlbnwwfHx8fDE3MzU2MjAwNTl8MA&ixlib=rb-4.0.3"
         ],
-        "price": "$25.00",
+        "price": 25,
         "variants": [
           {
-            "size": "Small",
-            "price": "$20.00"
+            "name": "Small RGB Gaming Mouse Pad",
+            "sku": "RGB-MP-S",
+            "stock": 40,
+            "price": 20,
+            "images": [],
+            "attributes": [
+              {
+                "name": "size",
+                "value": "Small"
+              }
+            ]
           },
           {
-            "size": "Medium",
-            "price": "$25.00"
+            "name": "Medium RGB Gaming Mouse Pad",
+            "sku": "RGB-MP-M",
+            "stock": 40,
+            "price": 25,
+            "images": [],
+            "attributes": [
+              {
+                "name": "size",
+                "value": "Medium"
+              }
+            ]
           },
           {
-            "size": "Large",
-            "price": "$30.00"
+            "name": "Large RGB Gaming Mouse Pad",
+            "sku": "RGB-MP-L",
+            "stock": 40,
+            "price": 30,
+            "images": [],
+            "attributes": [
+              {
+                "name": "size",
+                "value": "Large"
+              }
+            ]
           }
         ],
         "description": "An RGB mouse pad that enhances your gaming setup with vibrant colors and smooth tracking. Available in various sizes.",
         "preorder": false,
-        "shipping": "Ships worldwide with express tracking.",
-        "link": "https://zyvlon.com/collections/computer-accessories/products/rgb-gaming-mouse-pad"
+        "stock": 120
       },
       {
         "name": "Wireless Ergonomic Keyboard",
@@ -142,12 +413,11 @@
           "https://images.unsplash.com/photo-1482874478989-aaf30c03fe37?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw0fHxXaXJlbGVzcyUyMEVyZ29ub21pYyUyMEtleWJvYXJkfGVufDB8fHx8MTczNTYyMDA1OXww&ixlib=rb-4.0.3",
           "https://images.unsplash.com/photo-1522791194246-7129e9750305?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw1fHxXaXJlbGVzcyUyMEVyZ29ub21pYyUyMEtleWJvYXJkfGVufDB8fHx8MTczNTYyMDA1OXww&ixlib=rb-4.0.3"
         ],
-        "price": "$55.00",
+        "price": 55,
         "variants": [],
         "description": "A wireless keyboard designed for comfort and efficiency. Perfect for professionals and gamers alike.",
         "preorder": false,
-        "shipping": "Ships worldwide with express tracking.",
-        "link": "https://zyvlon.com/collections/computer-accessories/products/wireless-ergonomic-keyboard"
+        "stock": 80
       },
       {
         "name": "Wireless Ergonomic Mouse",
@@ -158,21 +428,44 @@
           "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw0fHxXaXJlbGVzcyUyMEVyZ29ub21pYyUyME1vdXNlfGVufDB8fHx8MTczNTYyMDA2MHww&ixlib=rb-4.0.3",
           "https://images.unsplash.com/photo-1510833606101-ca2953c586a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw1fHxXaXJlbGVzcyUyMEVyZ29ub21pYyUyME1vdXNlfGVufDB8fHx8MTczNTYyMDA2MHww&ixlib=rb-4.0.3"
         ],
-        "price": "$25.00",
+        "price": 25,
         "variants": [
           {
-            "color": "Black",
-            "connectivity": "Bluetooth"
+            "name": "Black Bluetooth Mouse",
+            "sku": "WEM-BLK-BT",
+            "stock": 50,
+            "images": [],
+            "attributes": [
+              {
+                "name": "color",
+                "value": "Black"
+              },
+              {
+                "name": "connectivity",
+                "value": "Bluetooth"
+              }
+            ]
           },
           {
-            "color": "White",
-            "connectivity": "USB"
+            "name": "White USB Mouse",
+            "sku": "WEM-WHT-USB",
+            "stock": 50,
+            "images": [],
+            "attributes": [
+              {
+                "name": "color",
+                "value": "White"
+              },
+              {
+                "name": "connectivity",
+                "value": "USB"
+              }
+            ]
           }
         ],
         "description": "A sleek, ergonomic mouse designed for maximum comfort during extended use. Available in Bluetooth and USB connectivity options.",
         "preorder": false,
-        "shipping": "Free shipping on orders over $50.",
-        "link": "https://zyvlon.com/collections/computer-accessories/products/wireless-ergonomic-mouse"
+        "stock": 100
       },
       {
         "name": "Mechanical Gaming Keyboard",
@@ -183,21 +476,216 @@
           "https://images.unsplash.com/photo-1689691811704-ae78d70117ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw0fHxNZWNoYW5pY2FsJTIwR2FtaW5nJTIwS2V5Ym9hcmR8ZW58MHx8fHwxNzM1NjIwMDYwfDA&ixlib=rb-4.0.3",
           "https://images.unsplash.com/photo-1660491076061-fe515dc22e66?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw1fHxNZWNoYW5pY2FsJTIwR2FtaW5nJTIwS2V5Ym9hcmR8ZW58MHx8fHwxNzM1NjIwMDYwfDA&ixlib=rb-4.0.3"
         ],
-        "price": "$89.00",
+        "price": 89,
         "variants": [
           {
-            "switchType": "Red",
-            "backlight": "RGB"
+            "name": "Red Switch RGB Keyboard",
+            "sku": "MGK-RED-RGB",
+            "stock": 25,
+            "images": [],
+            "attributes": [
+              {
+                "name": "switchType",
+                "value": "Red"
+              },
+              {
+                "name": "backlight",
+                "value": "RGB"
+              }
+            ]
           },
           {
-            "switchType": "Blue",
-            "backlight": "Single Color"
+            "name": "Blue Switch Single Color Keyboard",
+            "sku": "MGK-BLUE-SC",
+            "stock": 25,
+            "images": [],
+            "attributes": [
+              {
+                "name": "switchType",
+                "value": "Blue"
+              },
+              {
+                "name": "backlight",
+                "value": "Single Color"
+              }
+            ]
           }
         ],
         "description": "A high-performance mechanical keyboard with customizable RGB lighting and your choice of tactile or linear switches.",
         "preorder": true,
-        "shipping": "Flat rate shipping: $5.00.",
-        "link": "https://zyvlon.com/collections/computer-accessories/products/mechanical-gaming-keyboard"
+        "stock": 50
+      },
+      {
+        "name": "Wireless Gaming Mouse",
+        "images": [
+          "https://images.unsplash.com/photo-1618247130379-980b9fe0df04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwxfHxXaXJlbGVzcyUyMEdhbWluZyUyME1vdXNlfGVufDB8fHx8MTczNTYyNTc3OXww&ixlib=rb-4.0.3&q=80&w=400",
+          "https://images.unsplash.com/photo-1631749352438-7d576312185d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwyfHxXaXJlbGVzcyUyMEdhbWluZyUyME1vdXNlfGVufDB8fHx8MTczNTYyNTc3OXww&ixlib=rb-4.0.3&q=80&w=400",
+          "https://images.unsplash.com/photo-1499612657035-beb4431a3cdb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwzfHxXaXJlbGVzcyUyMEdhbWluZyUyME1vdXNlfGVufDB8fHx8MTczNTYyNTc3OXww&ixlib=rb-4.0.3&q=80&w=400",
+          "https://images.unsplash.com/photo-1659083462800-bc7eec7100af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw0fHxXaXJlbGVzcyUyMEdhbWluZyUyME1vdXNlfGVufDB8fHx8MTczNTYyNTc3OXww&ixlib=rb-4.0.3&q=80&w=400",
+          "https://images.unsplash.com/photo-1631749352020-b8ce2d86727e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw1fHxXaXJlbGVzcyUyMEdhbWluZyUyME1vdXNlfGVufDB8fHx8MTczNTYyNTc3OXww&ixlib=rb-4.0.3&q=80&w=400"
+        ],
+        "price": 59.99,
+        "variants": [
+          {
+            "name": "Black Edition",
+            "sku": "WGM-BLACK",
+            "stock": 30,
+            "images": [
+              "https://images.unsplash.com/photo-1650954316166-c3361fefcc87?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwxfHxXaXJlbGVzcyUyMEdhbWluZyUyME1vdXNlJTIwQmxhY2slMjBFZGl0aW9ufGVufDB8fHx8MTczNTYyNTc3OXww&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1569470451072-68314f596aec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwyfHxXaXJlbGVzcyUyMEdhbWluZyUyME1vdXNlJTIwQmxhY2slMjBFZGl0aW9ufGVufDB8fHx8MTczNTYyNTc3OXww&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1531857414472-edf16a1bb78c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwzfHxXaXJlbGVzcyUyMEdhbWluZyUyME1vdXNlJTIwQmxhY2slMjBFZGl0aW9ufGVufDB8fHx8MTczNTYyNTc3OXww&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1637775297458-7443ffd545b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw0fHxXaXJlbGVzcyUyMEdhbWluZyUyME1vdXNlJTIwQmxhY2slMjBFZGl0aW9ufGVufDB8fHx8MTczNTYyNTc3OXww&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1650220796556-22f512aec67f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw1fHxXaXJlbGVzcyUyMEdhbWluZyUyME1vdXNlJTIwQmxhY2slMjBFZGl0aW9ufGVufDB8fHx8MTczNTYyNTc3OXww&ixlib=rb-4.0.3&q=80&w=400"
+            ],
+            "attributes": [
+              {
+                "name": "color",
+                "value": "Black"
+              },
+              {
+                "name": "dpi",
+                "value": "16000"
+              }
+            ]
+          },
+          {
+            "name": "White Edition",
+            "sku": "WGM-WHITE",
+            "stock": 25,
+            "images": [
+              "https://images.unsplash.com/photo-1596275281743-e7399c7bdfa9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwxfHxXaXJlbGVzcyUyMEdhbWluZyUyME1vdXNlJTIwV2hpdGUlMjBFZGl0aW9ufGVufDB8fHx8MTczNTYyNTc4MHww&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1596367407372-96cb88503db6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwyfHxXaXJlbGVzcyUyMEdhbWluZyUyME1vdXNlJTIwV2hpdGUlMjBFZGl0aW9ufGVufDB8fHx8MTczNTYyNTc4MHww&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1554227231-54aa5db01c51?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwzfHxXaXJlbGVzcyUyMEdhbWluZyUyME1vdXNlJTIwV2hpdGUlMjBFZGl0aW9ufGVufDB8fHx8MTczNTYyNTc4MHww&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1638132035918-90a22beaab3b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw0fHxXaXJlbGVzcyUyMEdhbWluZyUyME1vdXNlJTIwV2hpdGUlMjBFZGl0aW9ufGVufDB8fHx8MTczNTYyNTc4MHww&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1566041510639-8d95a2490bfb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw1fHxXaXJlbGVzcyUyMEdhbWluZyUyME1vdXNlJTIwV2hpdGUlMjBFZGl0aW9ufGVufDB8fHx8MTczNTYyNTc4MHww&ixlib=rb-4.0.3&q=80&w=400"
+            ],
+            "attributes": [
+              {
+                "name": "color",
+                "value": "White"
+              },
+              {
+                "name": "dpi",
+                "value": "16000"
+              }
+            ]
+          }
+        ],
+        "description": "High-precision wireless gaming mouse with adjustable DPI and ergonomic design for extended gaming sessions.",
+        "preorder": false,
+        "stock": 55
+      },
+      {
+        "name": "USB-C Hub Multiport Adapter",
+        "images": [
+          "https://images.unsplash.com/photo-1715418093295-015cd2ff4610?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwxfHxVU0ItQyUyMEh1YiUyME11bHRpcG9ydCUyMEFkYXB0ZXJ8ZW58MHx8fHwxNzM1NjI1NzgwfDA&ixlib=rb-4.0.3&q=80&w=400",
+          "https://images.unsplash.com/photo-1729006185874-3351116704a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwyfHxVU0ItQyUyMEh1YiUyME11bHRpcG9ydCUyMEFkYXB0ZXJ8ZW58MHx8fHwxNzM1NjI1NzgwfDA&ixlib=rb-4.0.3&q=80&w=400",
+          "https://images.unsplash.com/photo-1632538896458-f09b58492db7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwzfHxVU0ItQyUyMEh1YiUyME11bHRpcG9ydCUyMEFkYXB0ZXJ8ZW58MHx8fHwxNzM1NjI1NzgwfDA&ixlib=rb-4.0.3&q=80&w=400",
+          "https://images.unsplash.com/photo-1729005732908-de02acdeca5d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw0fHxVU0ItQyUyMEh1YiUyME11bHRpcG9ydCUyMEFkYXB0ZXJ8ZW58MHx8fHwxNzM1NjI1NzgwfDA&ixlib=rb-4.0.3&q=80&w=400",
+          "https://images.unsplash.com/photo-1616578273577-5d54546f4dec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw1fHxVU0ItQyUyMEh1YiUyME11bHRpcG9ydCUyMEFkYXB0ZXJ8ZW58MHx8fHwxNzM1NjI1NzgwfDA&ixlib=rb-4.0.3&q=80&w=400"
+        ],
+        "price": 45.99,
+        "variants": [
+          {
+            "name": "7-in-1 Hub",
+            "sku": "UCH-7IN1",
+            "stock": 40,
+            "images": [
+              "https://images.unsplash.com/photo-1715418093295-015cd2ff4610?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwxfHxVU0ItQyUyMEh1YiUyME11bHRpcG9ydCUyMEFkYXB0ZXIlMjA3LWluLTElMjBIdWJ8ZW58MHx8fHwxNzM1NjI1NzgxfDA&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1667709525632-ca0ce065951d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwyfHxVU0ItQyUyMEh1YiUyME11bHRpcG9ydCUyMEFkYXB0ZXIlMjA3LWluLTElMjBIdWJ8ZW58MHx8fHwxNzM1NjI1NzgxfDA&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1729006185874-3351116704a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwzfHxVU0ItQyUyMEh1YiUyME11bHRpcG9ydCUyMEFkYXB0ZXIlMjA3LWluLTElMjBIdWJ8ZW58MHx8fHwxNzM1NjI1NzgxfDA&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1559571509-1b5c9241070b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw0fHxVU0ItQyUyMEh1YiUyME11bHRpcG9ydCUyMEFkYXB0ZXIlMjA3LWluLTElMjBIdWJ8ZW58MHx8fHwxNzM1NjI1NzgxfDA&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1632538896458-f09b58492db7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw1fHxVU0ItQyUyMEh1YiUyME11bHRpcG9ydCUyMEFkYXB0ZXIlMjA3LWluLTElMjBIdWJ8ZW58MHx8fHwxNzM1NjI1NzgxfDA&ixlib=rb-4.0.3&q=80&w=400"
+            ],
+            "attributes": [
+              {
+                "name": "ports",
+                "value": "7"
+              },
+              {
+                "name": "color",
+                "value": "Space Gray"
+              }
+            ]
+          },
+          {
+            "name": "9-in-1 Hub",
+            "sku": "UCH-9IN1",
+            "stock": 35,
+            "images": [
+              "https://images.unsplash.com/photo-1563860429-8a9ee43167bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwxfHxVU0ItQyUyMEh1YiUyME11bHRpcG9ydCUyMEFkYXB0ZXIlMjA5LWluLTElMjBIdWJ8ZW58MHx8fHwxNzM1NjI1NzgxfDA&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1715418093295-015cd2ff4610?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwyfHxVU0ItQyUyMEh1YiUyME11bHRpcG9ydCUyMEFkYXB0ZXIlMjA5LWluLTElMjBIdWJ8ZW58MHx8fHwxNzM1NjI1NzgxfDA&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1667709525632-ca0ce065951d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwzfHxVU0ItQyUyMEh1YiUyME11bHRpcG9ydCUyMEFkYXB0ZXIlMjA5LWluLTElMjBIdWJ8ZW58MHx8fHwxNzM1NjI1NzgxfDA&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1729006185874-3351116704a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw0fHxVU0ItQyUyMEh1YiUyME11bHRpcG9ydCUyMEFkYXB0ZXIlMjA5LWluLTElMjBIdWJ8ZW58MHx8fHwxNzM1NjI1NzgxfDA&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1559571509-1b5c9241070b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw1fHxVU0ItQyUyMEh1YiUyME11bHRpcG9ydCUyMEFkYXB0ZXIlMjA5LWluLTElMjBIdWJ8ZW58MHx8fHwxNzM1NjI1NzgxfDA&ixlib=rb-4.0.3&q=80&w=400"
+            ],
+            "attributes": [
+              {
+                "name": "ports",
+                "value": "9"
+              },
+              {
+                "name": "color",
+                "value": "Silver"
+              }
+            ]
+          }
+        ],
+        "description": "Versatile USB-C hub with multiple ports including HDMI, USB 3.0, SD card reader, and Power Delivery charging.",
+        "preorder": false,
+        "stock": 75
+      },
+      {
+        "name": "RGB Gaming Mousepad XL",
+        "images": [
+          "https://images.unsplash.com/photo-1593305841991-05c297ba4575?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwxfHxSR0IlMjBHYW1pbmclMjBNb3VzZXBhZCUyMFhMfGVufDB8fHx8MTczNTYyNTc4Mnww&ixlib=rb-4.0.3&q=80&w=400",
+          "https://images.unsplash.com/photo-1607853202273-797f1c22a38e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwyfHxSR0IlMjBHYW1pbmclMjBNb3VzZXBhZCUyMFhMfGVufDB8fHx8MTczNTYyNTc4Mnww&ixlib=rb-4.0.3&q=80&w=400",
+          "https://images.unsplash.com/photo-1486572788966-cfd3df1f5b42?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwzfHxSR0IlMjBHYW1pbmclMjBNb3VzZXBhZCUyMFhMfGVufDB8fHx8MTczNTYyNTc4Mnww&ixlib=rb-4.0.3&q=80&w=400",
+          "https://images.unsplash.com/photo-1534423861386-85a16f5d13fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw0fHxSR0IlMjBHYW1pbmclMjBNb3VzZXBhZCUyMFhMfGVufDB8fHx8MTczNTYyNTc4Mnww&ixlib=rb-4.0.3&q=80&w=400",
+          "https://images.unsplash.com/photo-1511512578047-dfb367046420?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw1fHxSR0IlMjBHYW1pbmclMjBNb3VzZXBhZCUyMFhMfGVufDB8fHx8MTczNTYyNTc4Mnww&ixlib=rb-4.0.3&q=80&w=400"
+        ],
+        "price": 29.99,
+        "variants": [
+          {
+            "name": "Standard Size",
+            "sku": "RMP-STD",
+            "stock": 45,
+            "images": [
+              "https://images.unsplash.com/photo-1593305841991-05c297ba4575?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwxfHxSR0IlMjBHYW1pbmclMjBNb3VzZXBhZCUyMFhMJTIwU3RhbmRhcmQlMjBTaXplfGVufDB8fHx8MTczNTYyNTc4Mnww&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1607853202273-797f1c22a38e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwyfHxSR0IlMjBHYW1pbmclMjBNb3VzZXBhZCUyMFhMJTIwU3RhbmRhcmQlMjBTaXplfGVufDB8fHx8MTczNTYyNTc4Mnww&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1486572788966-cfd3df1f5b42?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwzfHxSR0IlMjBHYW1pbmclMjBNb3VzZXBhZCUyMFhMJTIwU3RhbmRhcmQlMjBTaXplfGVufDB8fHx8MTczNTYyNTc4Mnww&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1534423861386-85a16f5d13fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw0fHxSR0IlMjBHYW1pbmclMjBNb3VzZXBhZCUyMFhMJTIwU3RhbmRhcmQlMjBTaXplfGVufDB8fHx8MTczNTYyNTc4Mnww&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1511512578047-dfb367046420?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw1fHxSR0IlMjBHYW1pbmclMjBNb3VzZXBhZCUyMFhMJTIwU3RhbmRhcmQlMjBTaXplfGVufDB8fHx8MTczNTYyNTc4Mnww&ixlib=rb-4.0.3&q=80&w=400"
+            ],
+            "attributes": [
+              {
+                "name": "size",
+                "value": "800x300mm"
+              }
+            ]
+          },
+          {
+            "name": "Extended Size",
+            "sku": "RMP-EXT",
+            "stock": 30,
+            "images": [
+              "https://images.unsplash.com/photo-1593305841991-05c297ba4575?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwxfHxSR0IlMjBHYW1pbmclMjBNb3VzZXBhZCUyMFhMJTIwRXh0ZW5kZWQlMjBTaXplfGVufDB8fHx8MTczNTYyNTc4M3ww&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1607853202273-797f1c22a38e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwyfHxSR0IlMjBHYW1pbmclMjBNb3VzZXBhZCUyMFhMJTIwRXh0ZW5kZWQlMjBTaXplfGVufDB8fHx8MTczNTYyNTc4M3ww&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1486572788966-cfd3df1f5b42?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwzfHxSR0IlMjBHYW1pbmclMjBNb3VzZXBhZCUyMFhMJTIwRXh0ZW5kZWQlMjBTaXplfGVufDB8fHx8MTczNTYyNTc4M3ww&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1534423861386-85a16f5d13fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw0fHxSR0IlMjBHYW1pbmclMjBNb3VzZXBhZCUyMFhMJTIwRXh0ZW5kZWQlMjBTaXplfGVufDB8fHx8MTczNTYyNTc4M3ww&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1511512578047-dfb367046420?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw1fHxSR0IlMjBHYW1pbmclMjBNb3VzZXBhZCUyMFhMJTIwRXh0ZW5kZWQlMjBTaXplfGVufDB8fHx8MTczNTYyNTc4M3ww&ixlib=rb-4.0.3&q=80&w=400"
+            ],
+            "attributes": [
+              {
+                "name": "size",
+                "value": "1000x400mm"
+              }
+            ]
+          }
+        ],
+        "description": "Extra-large gaming mousepad with RGB lighting effects, anti-slip base, and smooth micro-weave cloth surface.",
+        "preorder": false,
+        "stock": 75
       }
     ]
   },
@@ -214,21 +702,40 @@
           "https://images.unsplash.com/photo-1520004434532-668416a08753?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw0fHxQcmVtaXVtJTIwQTQlMjBQYXBlciUyMC0lMjA1MDAlMjBTaGVldHN8ZW58MHx8fHwxNzM1NjIwMDYxfDA&ixlib=rb-4.0.3",
           "https://images.unsplash.com/photo-1615800098799-0ccb261b1f92?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw1fHxQcmVtaXVtJTIwQTQlMjBQYXBlciUyMC0lMjA1MDAlMjBTaGVldHN8ZW58MHx8fHwxNzM1NjIwMDYxfDA&ixlib=rb-4.0.3"
         ],
-        "price": "$15.99",
+        "price": 15.99,
         "variants": [
           {
-            "weight": "70 GSM",
-            "price": "$15.99"
+            "name": "70 GSM Paper",
+            "sku": "A4-70GSM",
+            "stock": 50,
+            "weight": 70,
+            "price": 15.99,
+            "images": [],
+            "attributes": [
+              {
+                "name": "weight",
+                "value": "70 GSM"
+              }
+            ]
           },
           {
-            "weight": "80 GSM",
-            "price": "$18.99"
+            "name": "80 GSM Paper",
+            "sku": "A4-80GSM",
+            "stock": 50,
+            "weight": 80,
+            "price": 18.99,
+            "images": [],
+            "attributes": [
+              {
+                "name": "weight",
+                "value": "80 GSM"
+              }
+            ]
           }
         ],
         "description": "High-quality A4 paper suitable for photocopying and printing. Available in 70 and 80 GSM options for clear, crisp results.",
         "preorder": false,
-        "shipping": "Ships worldwide with express tracking.",
-        "link": "https://zyvlon.com/collections/photocopying-supplies/products/premium-a4-paper"
+        "stock": 100
       },
       {
         "name": "Photocopy Toner Cartridge",
@@ -239,12 +746,181 @@
           "https://images.unsplash.com/photo-1680923180493-91cc22c5f88f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw0fHxQaG90b2NvcHklMjBUb25lciUyMENhcnRyaWRnZXxlbnwwfHx8fDE3MzU2MjAwNjF8MA&ixlib=rb-4.0.3",
           "https://images.unsplash.com/photo-1606752096631-68d36ddca513?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw1fHxQaG90b2NvcHklMjBUb25lciUyMENhcnRyaWRnZXxlbnwwfHx8fDE3MzU2MjAwNjF8MA&ixlib=rb-4.0.3"
         ],
-        "price": "$45.00",
-        "variants": [],
+        "price": 45,
+        "variants": [
+          {
+            "name": "Standard Toner Cartridge",
+            "sku": "TC-STD",
+            "stock": 200,
+            "images": [],
+            "attributes": []
+          }
+        ],
         "description": "Reliable and efficient toner cartridges compatible with most photocopiers. Delivers high-yield printing and excellent print quality.",
         "preorder": false,
-        "shipping": "Ships worldwide with express tracking.",
-        "link": "https://zyvlon.com/collections/photocopying-supplies/products/photocopy-toner-cartridge"
+        "stock": 200
+      },
+      {
+        "name": "Professional Stapler Set",
+        "images": [
+          "https://images.unsplash.com/photo-1507679799987-c73779587ccf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwxfHxQcm9mZXNzaW9uYWwlMjBTdGFwbGVyJTIwU2V0fGVufDB8fHx8MTczNTYyNTc4M3ww&ixlib=rb-4.0.3&q=80&w=400",
+          "https://images.unsplash.com/photo-1484981138541-3d074aa97716?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwyfHxQcm9mZXNzaW9uYWwlMjBTdGFwbGVyJTIwU2V0fGVufDB8fHx8MTczNTYyNTc4M3ww&ixlib=rb-4.0.3&q=80&w=400",
+          "https://images.unsplash.com/photo-1425421669292-0c3da3b8f529?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwzfHxQcm9mZXNzaW9uYWwlMjBTdGFwbGVyJTIwU2V0fGVufDB8fHx8MTczNTYyNTc4M3ww&ixlib=rb-4.0.3&q=80&w=400",
+          "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw0fHxQcm9mZXNzaW9uYWwlMjBTdGFwbGVyJTIwU2V0fGVufDB8fHx8MTczNTYyNTc4M3ww&ixlib=rb-4.0.3&q=80&w=400",
+          "https://images.unsplash.com/photo-1496180470114-6ef490f3ff22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw1fHxQcm9mZXNzaW9uYWwlMjBTdGFwbGVyJTIwU2V0fGVufDB8fHx8MTczNTYyNTc4M3ww&ixlib=rb-4.0.3&q=80&w=400"
+        ],
+        "price": 24.99,
+        "variants": [
+          {
+            "name": "Standard Stapler",
+            "sku": "STPL-STD",
+            "stock": 150,
+            "price": 24.99,
+            "images": [
+              "https://images.unsplash.com/photo-1507679799987-c73779587ccf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwxfHxQcm9mZXNzaW9uYWwlMjBTdGFwbGVyJTIwU2V0JTIwU3RhbmRhcmQlMjBTdGFwbGVyfGVufDB8fHx8MTczNTYyNTc4NHww&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1484981138541-3d074aa97716?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwyfHxQcm9mZXNzaW9uYWwlMjBTdGFwbGVyJTIwU2V0JTIwU3RhbmRhcmQlMjBTdGFwbGVyfGVufDB8fHx8MTczNTYyNTc4NHww&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1425421669292-0c3da3b8f529?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwzfHxQcm9mZXNzaW9uYWwlMjBTdGFwbGVyJTIwU2V0JTIwU3RhbmRhcmQlMjBTdGFwbGVyfGVufDB8fHx8MTczNTYyNTc4NHww&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw0fHxQcm9mZXNzaW9uYWwlMjBTdGFwbGVyJTIwU2V0JTIwU3RhbmRhcmQlMjBTdGFwbGVyfGVufDB8fHx8MTczNTYyNTc4NHww&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1496180470114-6ef490f3ff22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw1fHxQcm9mZXNzaW9uYWwlMjBTdGFwbGVyJTIwU2V0JTIwU3RhbmRhcmQlMjBTdGFwbGVyfGVufDB8fHx8MTczNTYyNTc4NHww&ixlib=rb-4.0.3&q=80&w=400"
+            ],
+            "attributes": [
+              {
+                "name": "color",
+                "value": "Black"
+              }
+            ]
+          },
+          {
+            "name": "Heavy Duty Stapler",
+            "sku": "STPL-HD",
+            "stock": 75,
+            "price": 34.99,
+            "images": [
+              "https://images.unsplash.com/photo-1507679799987-c73779587ccf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwxfHxQcm9mZXNzaW9uYWwlMjBTdGFwbGVyJTIwU2V0JTIwSGVhdnklMjBEdXR5JTIwU3RhcGxlcnxlbnwwfHx8fDE3MzU2MjU3ODR8MA&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1484981138541-3d074aa97716?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwyfHxQcm9mZXNzaW9uYWwlMjBTdGFwbGVyJTIwU2V0JTIwSGVhdnklMjBEdXR5JTIwU3RhcGxlcnxlbnwwfHx8fDE3MzU2MjU3ODR8MA&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1425421669292-0c3da3b8f529?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwzfHxQcm9mZXNzaW9uYWwlMjBTdGFwbGVyJTIwU2V0JTIwSGVhdnklMjBEdXR5JTIwU3RhcGxlcnxlbnwwfHx8fDE3MzU2MjU3ODR8MA&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw0fHxQcm9mZXNzaW9uYWwlMjBTdGFwbGVyJTIwU2V0JTIwSGVhdnklMjBEdXR5JTIwU3RhcGxlcnxlbnwwfHx8fDE3MzU2MjU3ODR8MA&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1496180470114-6ef490f3ff22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw1fHxQcm9mZXNzaW9uYWwlMjBTdGFwbGVyJTIwU2V0JTIwSGVhdnklMjBEdXR5JTIwU3RhcGxlcnxlbnwwfHx8fDE3MzU2MjU3ODR8MA&ixlib=rb-4.0.3&q=80&w=400"
+            ],
+            "attributes": [
+              {
+                "name": "color",
+                "value": "Silver"
+              }
+            ]
+          }
+        ],
+        "description": "Professional-grade staplers perfect for office use. Available in standard and heavy-duty versions.",
+        "preorder": false,
+        "stock": 225
+      },
+      {
+        "name": "Whiteboard Marker Set",
+        "images": [
+          "https://images.unsplash.com/photo-1501159771943-cc9027db4d8b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwxfHxXaGl0ZWJvYXJkJTIwTWFya2VyJTIwU2V0fGVufDB8fHx8MTczNTYyNTc4NHww&ixlib=rb-4.0.3&q=80&w=400",
+          "https://images.unsplash.com/photo-1501163394770-4066ea13509b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwyfHxXaGl0ZWJvYXJkJTIwTWFya2VyJTIwU2V0fGVufDB8fHx8MTczNTYyNTc4NHww&ixlib=rb-4.0.3&q=80&w=400",
+          "https://images.unsplash.com/photo-1607703703674-df96af81dffa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwzfHxXaGl0ZWJvYXJkJTIwTWFya2VyJTIwU2V0fGVufDB8fHx8MTczNTYyNTc4NHww&ixlib=rb-4.0.3&q=80&w=400",
+          "https://images.unsplash.com/photo-1607703703520-bb638e84caf2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw0fHxXaGl0ZWJvYXJkJTIwTWFya2VyJTIwU2V0fGVufDB8fHx8MTczNTYyNTc4NHww&ixlib=rb-4.0.3&q=80&w=400",
+          "https://images.unsplash.com/photo-1616628188550-808682f3926d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw1fHxXaGl0ZWJvYXJkJTIwTWFya2VyJTIwU2V0fGVufDB8fHx8MTczNTYyNTc4NHww&ixlib=rb-4.0.3&q=80&w=400"
+        ],
+        "price": 12.99,
+        "variants": [
+          {
+            "name": "Basic Color Pack",
+            "sku": "WBM-BASIC",
+            "stock": 300,
+            "price": 12.99,
+            "images": [
+              "https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwxfHxXaGl0ZWJvYXJkJTIwTWFya2VyJTIwU2V0JTIwQmFzaWMlMjBDb2xvciUyMFBhY2t8ZW58MHx8fHwxNzM1NjI1Nzg1fDA&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1485163819542-13adeb5e0068?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwyfHxXaGl0ZWJvYXJkJTIwTWFya2VyJTIwU2V0JTIwQmFzaWMlMjBDb2xvciUyMFBhY2t8ZW58MHx8fHwxNzM1NjI1Nzg1fDA&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1458682625221-3a45f8a844c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwzfHxXaGl0ZWJvYXJkJTIwTWFya2VyJTIwU2V0JTIwQmFzaWMlMjBDb2xvciUyMFBhY2t8ZW58MHx8fHwxNzM1NjI1Nzg1fDA&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1516796181074-bf453fbfa3e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw0fHxXaGl0ZWJvYXJkJTIwTWFya2VyJTIwU2V0JTIwQmFzaWMlMjBDb2xvciUyMFBhY2t8ZW58MHx8fHwxNzM1NjI1Nzg1fDA&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1506792006437-256b665541e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw1fHxXaGl0ZWJvYXJkJTIwTWFya2VyJTIwU2V0JTIwQmFzaWMlMjBDb2xvciUyMFBhY2t8ZW58MHx8fHwxNzM1NjI1Nzg1fDA&ixlib=rb-4.0.3&q=80&w=400"
+            ],
+            "attributes": [
+              {
+                "name": "pack_size",
+                "value": "4 markers"
+              }
+            ]
+          },
+          {
+            "name": "Extended Color Pack",
+            "sku": "WBM-EXT",
+            "stock": 150,
+            "price": 19.99,
+            "images": [
+              "https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwxfHxXaGl0ZWJvYXJkJTIwTWFya2VyJTIwU2V0JTIwRXh0ZW5kZWQlMjBDb2xvciUyMFBhY2t8ZW58MHx8fHwxNzM1NjI1Nzg1fDA&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1485163819542-13adeb5e0068?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwyfHxXaGl0ZWJvYXJkJTIwTWFya2VyJTIwU2V0JTIwRXh0ZW5kZWQlMjBDb2xvciUyMFBhY2t8ZW58MHx8fHwxNzM1NjI1Nzg1fDA&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1458682625221-3a45f8a844c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwzfHxXaGl0ZWJvYXJkJTIwTWFya2VyJTIwU2V0JTIwRXh0ZW5kZWQlMjBDb2xvciUyMFBhY2t8ZW58MHx8fHwxNzM1NjI1Nzg1fDA&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1516796181074-bf453fbfa3e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw0fHxXaGl0ZWJvYXJkJTIwTWFya2VyJTIwU2V0JTIwRXh0ZW5kZWQlMjBDb2xvciUyMFBhY2t8ZW58MHx8fHwxNzM1NjI1Nzg1fDA&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1506792006437-256b665541e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw1fHxXaGl0ZWJvYXJkJTIwTWFya2VyJTIwU2V0JTIwRXh0ZW5kZWQlMjBDb2xvciUyMFBhY2t8ZW58MHx8fHwxNzM1NjI1Nzg1fDA&ixlib=rb-4.0.3&q=80&w=400"
+            ],
+            "attributes": [
+              {
+                "name": "pack_size",
+                "value": "8 markers"
+              }
+            ]
+          }
+        ],
+        "description": "High-quality whiteboard markers with vibrant colors and easy-erase formula. Available in basic and extended color packs.",
+        "preorder": false,
+        "stock": 450
+      },
+      {
+        "name": "Document Binding Machine",
+        "images": [
+          "https://images.unsplash.com/photo-1626274890657-e28d5b65b04b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwxfHxEb2N1bWVudCUyMEJpbmRpbmclMjBNYWNoaW5lfGVufDB8fHx8MTczNTYyNTc4Nnww&ixlib=rb-4.0.3&q=80&w=400",
+          "https://images.unsplash.com/photo-1613244470042-e69e8ccb303a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwyfHxEb2N1bWVudCUyMEJpbmRpbmclMjBNYWNoaW5lfGVufDB8fHx8MTczNTYyNTc4Nnww&ixlib=rb-4.0.3&q=80&w=400",
+          "https://images.unsplash.com/photo-1574087631700-abf928509b80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwzfHxEb2N1bWVudCUyMEJpbmRpbmclMjBNYWNoaW5lfGVufDB8fHx8MTczNTYyNTc4Nnww&ixlib=rb-4.0.3&q=80&w=400",
+          "https://images.unsplash.com/photo-1558979158-3f28368739e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw0fHxEb2N1bWVudCUyMEJpbmRpbmclMjBNYWNoaW5lfGVufDB8fHx8MTczNTYyNTc4Nnww&ixlib=rb-4.0.3&q=80&w=400",
+          "https://images.unsplash.com/photo-1578496479531-32e296d5c6e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw1fHxEb2N1bWVudCUyMEJpbmRpbmclMjBNYWNoaW5lfGVufDB8fHx8MTczNTYyNTc4Nnww&ixlib=rb-4.0.3&q=80&w=400"
+        ],
+        "price": 159.99,
+        "variants": [
+          {
+            "name": "Standard Binding Machine",
+            "sku": "DBM-STD",
+            "stock": 50,
+            "price": 159.99,
+            "images": [
+              "https://images.unsplash.com/photo-1626274890657-e28d5b65b04b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwxfHxEb2N1bWVudCUyMEJpbmRpbmclMjBNYWNoaW5lJTIwU3RhbmRhcmQlMjBCaW5kaW5nJTIwTWFjaGluZXxlbnwwfHx8fDE3MzU2MjU3ODZ8MA&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1613244470042-e69e8ccb303a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwyfHxEb2N1bWVudCUyMEJpbmRpbmclMjBNYWNoaW5lJTIwU3RhbmRhcmQlMjBCaW5kaW5nJTIwTWFjaGluZXxlbnwwfHx8fDE3MzU2MjU3ODZ8MA&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1574087631700-abf928509b80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwzfHxEb2N1bWVudCUyMEJpbmRpbmclMjBNYWNoaW5lJTIwU3RhbmRhcmQlMjBCaW5kaW5nJTIwTWFjaGluZXxlbnwwfHx8fDE3MzU2MjU3ODZ8MA&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1558979158-3f28368739e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw0fHxEb2N1bWVudCUyMEJpbmRpbmclMjBNYWNoaW5lJTIwU3RhbmRhcmQlMjBCaW5kaW5nJTIwTWFjaGluZXxlbnwwfHx8fDE3MzU2MjU3ODZ8MA&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1578496479531-32e296d5c6e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw1fHxEb2N1bWVudCUyMEJpbmRpbmclMjBNYWNoaW5lJTIwU3RhbmRhcmQlMjBCaW5kaW5nJTIwTWFjaGluZXxlbnwwfHx8fDE3MzU2MjU3ODZ8MA&ixlib=rb-4.0.3&q=80&w=400"
+            ],
+            "attributes": [
+              {
+                "name": "binding_capacity",
+                "value": "120 sheets"
+              }
+            ]
+          },
+          {
+            "name": "Professional Binding Machine",
+            "sku": "DBM-PRO",
+            "stock": 25,
+            "price": 249.99,
+            "images": [
+              "https://images.unsplash.com/photo-1507679799987-c73779587ccf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwxfHxEb2N1bWVudCUyMEJpbmRpbmclMjBNYWNoaW5lJTIwUHJvZmVzc2lvbmFsJTIwQmluZGluZyUyME1hY2hpbmV8ZW58MHx8fHwxNzM1NjI1Nzg3fDA&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1484981138541-3d074aa97716?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwyfHxEb2N1bWVudCUyMEJpbmRpbmclMjBNYWNoaW5lJTIwUHJvZmVzc2lvbmFsJTIwQmluZGluZyUyME1hY2hpbmV8ZW58MHx8fHwxNzM1NjI1Nzg3fDA&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1425421669292-0c3da3b8f529?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwzfHxEb2N1bWVudCUyMEJpbmRpbmclMjBNYWNoaW5lJTIwUHJvZmVzc2lvbmFsJTIwQmluZGluZyUyME1hY2hpbmV8ZW58MHx8fHwxNzM1NjI1Nzg3fDA&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw0fHxEb2N1bWVudCUyMEJpbmRpbmclMjBNYWNoaW5lJTIwUHJvZmVzc2lvbmFsJTIwQmluZGluZyUyME1hY2hpbmV8ZW58MHx8fHwxNzM1NjI1Nzg3fDA&ixlib=rb-4.0.3&q=80&w=400",
+              "https://images.unsplash.com/photo-1496180470114-6ef490f3ff22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw1fHxEb2N1bWVudCUyMEJpbmRpbmclMjBNYWNoaW5lJTIwUHJvZmVzc2lvbmFsJTIwQmluZGluZyUyME1hY2hpbmV8ZW58MHx8fHwxNzM1NjI1Nzg3fDA&ixlib=rb-4.0.3&q=80&w=400"
+            ],
+            "attributes": [
+              {
+                "name": "binding_capacity",
+                "value": "450 sheets"
+              }
+            ]
+          }
+        ],
+        "description": "Professional document binding machines for creating perfectly bound documents and presentations. Available in standard and professional models.",
+        "preorder": true,
+        "stock": 75
       }
     ]
   }

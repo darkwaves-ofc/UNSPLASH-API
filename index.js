@@ -1,11 +1,13 @@
-const axios = require('axios');
-const fs = require('fs');
+const axios = require("axios");
+const fs = require("fs");
 
 const apiKey = "wECxvTQK_GCjppbMv8DthL6p0eYg5vVR9hAxZd1Ws9U"; // Replace with your API key
 const jsonFile = "./zyvlon_products.json"; // Path to your JSON file
 
 async function fetchImages(query) {
   try {
+    console.log(`Fetching images for ${query}`);
+    // return
     const response = await axios.get("https://api.unsplash.com/search/photos", {
       params: {
         query: query,
@@ -29,14 +31,28 @@ async function updateProductImages() {
 
     for (const category of data) {
       for (const product of category.products) {
-        console.log(`Fetching images for product: ${product.name}`);
-        const newImages = await fetchImages(product.name);
+        if (product.images.length <= 0) {
+          console.log(`Fetching images for product: ${product.name}`);
+          const newImages = await fetchImages(product.name);
+          if (newImages.length > 0) {
+            product.images = newImages; // Update images with fetched URLs
+            console.log(`Updated images for ${product.name}`);
+          } else {
+            console.log(`No images found for ${product.name}`);
+          }
 
-        if (newImages.length > 0) {
-          product.images = newImages; // Update images with fetched URLs
-          console.log(`Updated images for ${product.name}`);
-        } else {
-          console.log(`No images found for ${product.name}`);
+          for  (const variant of product.variants) {
+            // console.log(variants);
+          console.log(`Fetching images for variant: ${variant.name}`);
+
+            const newImages = await fetchImages(product.name + " " + variant.name);
+          if (newImages.length > 0) {
+            variant.images = newImages; // Update images with fetched URLs
+            console.log(`Updated images for ${product.name}`);
+          } else {
+            console.log(`No images found for ${product.name}`);
+          }
+          }
         }
       }
     }
