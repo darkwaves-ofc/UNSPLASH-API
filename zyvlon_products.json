@@ -1,0 +1,251 @@
+[
+  {
+    "name": "School Supplies",
+    "link": "https://zyvlon.com/collections/school-supplies",
+    "products": [
+      {
+        "name": "Ergonomic Gel Pen Set",
+        "images": [
+          "https://images.unsplash.com/photo-1505744386214-51dba16a26fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwxfHxFcmdvbm9taWMlMjBHZWwlMjBQZW4lMjBTZXR8ZW58MHx8fHwxNzM1NjIwMDU3fDA&ixlib=rb-4.0.3",
+          "https://images.unsplash.com/photo-1612367980327-7454a7276aa7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwyfHxFcmdvbm9taWMlMjBHZWwlMjBQZW4lMjBTZXR8ZW58MHx8fHwxNzM1NjIwMDU3fDA&ixlib=rb-4.0.3",
+          "https://images.unsplash.com/photo-1587135991058-8816b028691f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwzfHxFcmdvbm9taWMlMjBHZWwlMjBQZW4lMjBTZXR8ZW58MHx8fHwxNzM1NjIwMDU3fDA&ixlib=rb-4.0.3",
+          "https://images.unsplash.com/photo-1598708521413-feaa4e69c01b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw0fHxFcmdvbm9taWMlMjBHZWwlMjBQZW4lMjBTZXR8ZW58MHx8fHwxNzM1NjIwMDU3fDA&ixlib=rb-4.0.3",
+          "https://images.unsplash.com/photo-1471107340929-a87cd0f5b5f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw1fHxFcmdvbm9taWMlMjBHZWwlMjBQZW4lMjBTZXR8ZW58MHx8fHwxNzM1NjIwMDU3fDA&ixlib=rb-4.0.3"
+        ],
+        "price": "$12.99",
+        "variants": [
+          {
+            "color": "Blue",
+            "price": "$12.99"
+          },
+          {
+            "color": "Black",
+            "price": "$12.99"
+          },
+          {
+            "color": "Red",
+            "price": "$12.99"
+          }
+        ],
+        "description": "A set of ergonomic gel pens for smooth and comfortable writing. Available in multiple colors with a long-lasting ink supply.",
+        "preorder": false,
+        "shipping": "Ships worldwide with express tracking.",
+        "link": "https://zyvlon.com/collections/school-supplies/products/ergonomic-gel-pen-set"
+      },
+      {
+        "name": "Eco-Friendly Notebook",
+        "images": [
+          "https://images.unsplash.com/photo-1516414447565-b14be0adf13e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwxfHxFY28tRnJpZW5kbHklMjBOb3RlYm9va3xlbnwwfHx8fDE3MzU2MjAwNTh8MA&ixlib=rb-4.0.3",
+          "https://images.unsplash.com/photo-1705807645378-1d3de7930d41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwyfHxFY28tRnJpZW5kbHklMjBOb3RlYm9va3xlbnwwfHx8fDE3MzU2MjAwNTh8MA&ixlib=rb-4.0.3",
+          "https://images.unsplash.com/photo-1617870204594-43c34238b25b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwzfHxFY28tRnJpZW5kbHklMjBOb3RlYm9va3xlbnwwfHx8fDE3MzU2MjAwNTh8MA&ixlib=rb-4.0.3",
+          "https://images.unsplash.com/photo-1612367980327-7454a7276aa7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw0fHxFY28tRnJpZW5kbHklMjBOb3RlYm9va3xlbnwwfHx8fDE3MzU2MjAwNTh8MA&ixlib=rb-4.0.3",
+          "https://images.unsplash.com/photo-1587135991058-8816b028691f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw1fHxFY28tRnJpZW5kbHklMjBOb3RlYm9va3xlbnwwfHx8fDE3MzU2MjAwNTh8MA&ixlib=rb-4.0.3"
+        ],
+        "price": "$8.50",
+        "variants": [],
+        "description": "A sustainable notebook made with recycled materials. Perfect for school, work, or journaling. Features a sturdy cover and lined pages.",
+        "preorder": false,
+        "shipping": "Ships worldwide with express tracking.",
+        "link": "https://zyvlon.com/collections/school-supplies/products/eco-friendly-notebook"
+      },
+      {
+        "name": "5-Subject Notebook",
+        "images": [
+          "https://images.unsplash.com/photo-1516414447565-b14be0adf13e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwxfHw1LVN1YmplY3QlMjBOb3RlYm9va3xlbnwwfHx8fDE3MzU2MjAwNTh8MA&ixlib=rb-4.0.3",
+          "https://images.unsplash.com/photo-1612367980327-7454a7276aa7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwyfHw1LVN1YmplY3QlMjBOb3RlYm9va3xlbnwwfHx8fDE3MzU2MjAwNTh8MA&ixlib=rb-4.0.3",
+          "https://images.unsplash.com/photo-1587135991058-8816b028691f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwzfHw1LVN1YmplY3QlMjBOb3RlYm9va3xlbnwwfHx8fDE3MzU2MjAwNTh8MA&ixlib=rb-4.0.3",
+          "https://images.unsplash.com/photo-1482746673045-d8c155829510?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw0fHw1LVN1YmplY3QlMjBOb3RlYm9va3xlbnwwfHx8fDE3MzU2MjAwNTh8MA&ixlib=rb-4.0.3",
+          "https://images.unsplash.com/photo-1620034820088-5b46f0f64f0e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw1fHw1LVN1YmplY3QlMjBOb3RlYm9va3xlbnwwfHx8fDE3MzU2MjAwNTh8MA&ixlib=rb-4.0.3"
+        ],
+        "price": "$7.50",
+        "variants": [
+          {
+            "color": "Blue",
+            "size": "A4"
+          },
+          {
+            "color": "Red",
+            "size": "A5"
+          }
+        ],
+        "description": "Durable 5-subject notebook with dividers for organized note-taking. Available in A4 and A5 sizes.",
+        "preorder": false,
+        "shipping": "Free in-store pickup.",
+        "link": "https://zyvlon.com/collections/school-supplies/products/5-subject-notebook"
+      },
+      {
+        "name": "Graphing Calculator",
+        "images": [
+          "https://images.unsplash.com/photo-1553729459-efe14ef6055d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwxfHxHcmFwaGluZyUyMENhbGN1bGF0b3J8ZW58MHx8fHwxNzM1NjIwMDU4fDA&ixlib=rb-4.0.3",
+          "https://images.unsplash.com/photo-1721379805142-faaa28ab1424?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwyfHxHcmFwaGluZyUyMENhbGN1bGF0b3J8ZW58MHx8fHwxNzM1NjIwMDU4fDA&ixlib=rb-4.0.3",
+          "https://images.unsplash.com/photo-1723095816936-fcda04ba0ece?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwzfHxHcmFwaGluZyUyMENhbGN1bGF0b3J8ZW58MHx8fHwxNzM1NjIwMDU4fDA&ixlib=rb-4.0.3",
+          "https://images.unsplash.com/photo-1716799323871-d82962608d7d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw0fHxHcmFwaGluZyUyMENhbGN1bGF0b3J8ZW58MHx8fHwxNzM1NjIwMDU4fDA&ixlib=rb-4.0.3",
+          "https://images.unsplash.com/photo-1734856080638-71e78b3d8d5f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw1fHxHcmFwaGluZyUyMENhbGN1bGF0b3J8ZW58MHx8fHwxNzM1NjIwMDU4fDA&ixlib=rb-4.0.3"
+        ],
+        "price": "$59.00",
+        "variants": [
+          {
+            "color": "Black",
+            "model": "Advanced"
+          },
+          {
+            "color": "Silver",
+            "model": "Standard"
+          }
+        ],
+        "description": "A powerful graphing calculator for high school and college students. Includes advanced features for STEM subjects.",
+        "preorder": false,
+        "shipping": "Free shipping on orders over $50.",
+        "link": "https://zyvlon.com/collections/school-supplies/products/graphing-calculator"
+      }
+    ]
+  },
+  {
+    "name": "Computer Accessories",
+    "link": "https://zyvlon.com/collections/computer-accessories",
+    "products": [
+      {
+        "name": "RGB Gaming Mouse Pad",
+        "images": [
+          "https://images.unsplash.com/photo-1593305841991-05c297ba4575?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwxfHxSR0IlMjBHYW1pbmclMjBNb3VzZSUyMFBhZHxlbnwwfHx8fDE3MzU2MjAwNTl8MA&ixlib=rb-4.0.3",
+          "https://images.unsplash.com/photo-1607853202273-797f1c22a38e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwyfHxSR0IlMjBHYW1pbmclMjBNb3VzZSUyMFBhZHxlbnwwfHx8fDE3MzU2MjAwNTl8MA&ixlib=rb-4.0.3",
+          "https://images.unsplash.com/photo-1486572788966-cfd3df1f5b42?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwzfHxSR0IlMjBHYW1pbmclMjBNb3VzZSUyMFBhZHxlbnwwfHx8fDE3MzU2MjAwNTl8MA&ixlib=rb-4.0.3",
+          "https://images.unsplash.com/photo-1534423861386-85a16f5d13fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw0fHxSR0IlMjBHYW1pbmclMjBNb3VzZSUyMFBhZHxlbnwwfHx8fDE3MzU2MjAwNTl8MA&ixlib=rb-4.0.3",
+          "https://images.unsplash.com/photo-1511512578047-dfb367046420?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw1fHxSR0IlMjBHYW1pbmclMjBNb3VzZSUyMFBhZHxlbnwwfHx8fDE3MzU2MjAwNTl8MA&ixlib=rb-4.0.3"
+        ],
+        "price": "$25.00",
+        "variants": [
+          {
+            "size": "Small",
+            "price": "$20.00"
+          },
+          {
+            "size": "Medium",
+            "price": "$25.00"
+          },
+          {
+            "size": "Large",
+            "price": "$30.00"
+          }
+        ],
+        "description": "An RGB mouse pad that enhances your gaming setup with vibrant colors and smooth tracking. Available in various sizes.",
+        "preorder": false,
+        "shipping": "Ships worldwide with express tracking.",
+        "link": "https://zyvlon.com/collections/computer-accessories/products/rgb-gaming-mouse-pad"
+      },
+      {
+        "name": "Wireless Ergonomic Keyboard",
+        "images": [
+          "https://images.unsplash.com/photo-1536059540012-f2ed455bc0b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwxfHxXaXJlbGVzcyUyMEVyZ29ub21pYyUyMEtleWJvYXJkfGVufDB8fHx8MTczNTYyMDA1OXww&ixlib=rb-4.0.3",
+          "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwyfHxXaXJlbGVzcyUyMEVyZ29ub21pYyUyMEtleWJvYXJkfGVufDB8fHx8MTczNTYyMDA1OXww&ixlib=rb-4.0.3",
+          "https://images.unsplash.com/photo-1535057697339-e2a798221230?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwzfHxXaXJlbGVzcyUyMEVyZ29ub21pYyUyMEtleWJvYXJkfGVufDB8fHx8MTczNTYyMDA1OXww&ixlib=rb-4.0.3",
+          "https://images.unsplash.com/photo-1482874478989-aaf30c03fe37?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw0fHxXaXJlbGVzcyUyMEVyZ29ub21pYyUyMEtleWJvYXJkfGVufDB8fHx8MTczNTYyMDA1OXww&ixlib=rb-4.0.3",
+          "https://images.unsplash.com/photo-1522791194246-7129e9750305?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw1fHxXaXJlbGVzcyUyMEVyZ29ub21pYyUyMEtleWJvYXJkfGVufDB8fHx8MTczNTYyMDA1OXww&ixlib=rb-4.0.3"
+        ],
+        "price": "$55.00",
+        "variants": [],
+        "description": "A wireless keyboard designed for comfort and efficiency. Perfect for professionals and gamers alike.",
+        "preorder": false,
+        "shipping": "Ships worldwide with express tracking.",
+        "link": "https://zyvlon.com/collections/computer-accessories/products/wireless-ergonomic-keyboard"
+      },
+      {
+        "name": "Wireless Ergonomic Mouse",
+        "images": [
+          "https://images.unsplash.com/photo-1611532736570-dd6b097ecbb3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwxfHxXaXJlbGVzcyUyMEVyZ29ub21pYyUyME1vdXNlfGVufDB8fHx8MTczNTYyMDA2MHww&ixlib=rb-4.0.3",
+          "https://images.unsplash.com/photo-1612367289653-ef3ed391e974?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwyfHxXaXJlbGVzcyUyMEVyZ29ub21pYyUyME1vdXNlfGVufDB8fHx8MTczNTYyMDA2MHww&ixlib=rb-4.0.3",
+          "https://images.unsplash.com/photo-1612367289790-67d076b32d3b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwzfHxXaXJlbGVzcyUyMEVyZ29ub21pYyUyME1vdXNlfGVufDB8fHx8MTczNTYyMDA2MHww&ixlib=rb-4.0.3",
+          "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw0fHxXaXJlbGVzcyUyMEVyZ29ub21pYyUyME1vdXNlfGVufDB8fHx8MTczNTYyMDA2MHww&ixlib=rb-4.0.3",
+          "https://images.unsplash.com/photo-1510833606101-ca2953c586a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw1fHxXaXJlbGVzcyUyMEVyZ29ub21pYyUyME1vdXNlfGVufDB8fHx8MTczNTYyMDA2MHww&ixlib=rb-4.0.3"
+        ],
+        "price": "$25.00",
+        "variants": [
+          {
+            "color": "Black",
+            "connectivity": "Bluetooth"
+          },
+          {
+            "color": "White",
+            "connectivity": "USB"
+          }
+        ],
+        "description": "A sleek, ergonomic mouse designed for maximum comfort during extended use. Available in Bluetooth and USB connectivity options.",
+        "preorder": false,
+        "shipping": "Free shipping on orders over $50.",
+        "link": "https://zyvlon.com/collections/computer-accessories/products/wireless-ergonomic-mouse"
+      },
+      {
+        "name": "Mechanical Gaming Keyboard",
+        "images": [
+          "https://images.unsplash.com/photo-1649269234922-3d3a6ed5ebb5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwxfHxNZWNoYW5pY2FsJTIwR2FtaW5nJTIwS2V5Ym9hcmR8ZW58MHx8fHwxNzM1NjIwMDYwfDA&ixlib=rb-4.0.3",
+          "https://images.unsplash.com/photo-1480506132288-68f7705954bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwyfHxNZWNoYW5pY2FsJTIwR2FtaW5nJTIwS2V5Ym9hcmR8ZW58MHx8fHwxNzM1NjIwMDYwfDA&ixlib=rb-4.0.3",
+          "https://images.unsplash.com/photo-1659215609160-fd5afc42b8ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwzfHxNZWNoYW5pY2FsJTIwR2FtaW5nJTIwS2V5Ym9hcmR8ZW58MHx8fHwxNzM1NjIwMDYwfDA&ixlib=rb-4.0.3",
+          "https://images.unsplash.com/photo-1689691811704-ae78d70117ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw0fHxNZWNoYW5pY2FsJTIwR2FtaW5nJTIwS2V5Ym9hcmR8ZW58MHx8fHwxNzM1NjIwMDYwfDA&ixlib=rb-4.0.3",
+          "https://images.unsplash.com/photo-1660491076061-fe515dc22e66?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw1fHxNZWNoYW5pY2FsJTIwR2FtaW5nJTIwS2V5Ym9hcmR8ZW58MHx8fHwxNzM1NjIwMDYwfDA&ixlib=rb-4.0.3"
+        ],
+        "price": "$89.00",
+        "variants": [
+          {
+            "switchType": "Red",
+            "backlight": "RGB"
+          },
+          {
+            "switchType": "Blue",
+            "backlight": "Single Color"
+          }
+        ],
+        "description": "A high-performance mechanical keyboard with customizable RGB lighting and your choice of tactile or linear switches.",
+        "preorder": true,
+        "shipping": "Flat rate shipping: $5.00.",
+        "link": "https://zyvlon.com/collections/computer-accessories/products/mechanical-gaming-keyboard"
+      }
+    ]
+  },
+  {
+    "name": "Photocopying Supplies",
+    "link": "https://zyvlon.com/collections/photocopying-supplies",
+    "products": [
+      {
+        "name": "Premium A4 Paper - 500 Sheets",
+        "images": [
+          "https://images.unsplash.com/photo-1601662528567-526cd06f6582?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwxfHxQcmVtaXVtJTIwQTQlMjBQYXBlciUyMC0lMjA1MDAlMjBTaGVldHN8ZW58MHx8fHwxNzM1NjIwMDYxfDA&ixlib=rb-4.0.3",
+          "https://images.unsplash.com/photo-1528458965990-428de4b1cb0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwyfHxQcmVtaXVtJTIwQTQlMjBQYXBlciUyMC0lMjA1MDAlMjBTaGVldHN8ZW58MHx8fHwxNzM1NjIwMDYxfDA&ixlib=rb-4.0.3",
+          "https://images.unsplash.com/photo-1519972064555-542444e71b54?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwzfHxQcmVtaXVtJTIwQTQlMjBQYXBlciUyMC0lMjA1MDAlMjBTaGVldHN8ZW58MHx8fHwxNzM1NjIwMDYxfDA&ixlib=rb-4.0.3",
+          "https://images.unsplash.com/photo-1520004434532-668416a08753?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw0fHxQcmVtaXVtJTIwQTQlMjBQYXBlciUyMC0lMjA1MDAlMjBTaGVldHN8ZW58MHx8fHwxNzM1NjIwMDYxfDA&ixlib=rb-4.0.3",
+          "https://images.unsplash.com/photo-1615800098799-0ccb261b1f92?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw1fHxQcmVtaXVtJTIwQTQlMjBQYXBlciUyMC0lMjA1MDAlMjBTaGVldHN8ZW58MHx8fHwxNzM1NjIwMDYxfDA&ixlib=rb-4.0.3"
+        ],
+        "price": "$15.99",
+        "variants": [
+          {
+            "weight": "70 GSM",
+            "price": "$15.99"
+          },
+          {
+            "weight": "80 GSM",
+            "price": "$18.99"
+          }
+        ],
+        "description": "High-quality A4 paper suitable for photocopying and printing. Available in 70 and 80 GSM options for clear, crisp results.",
+        "preorder": false,
+        "shipping": "Ships worldwide with express tracking.",
+        "link": "https://zyvlon.com/collections/photocopying-supplies/products/premium-a4-paper"
+      },
+      {
+        "name": "Photocopy Toner Cartridge",
+        "images": [
+          "https://images.unsplash.com/photo-1598460880248-71ec6d2d582b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwxfHxQaG90b2NvcHklMjBUb25lciUyMENhcnRyaWRnZXxlbnwwfHx8fDE3MzU2MjAwNjF8MA&ixlib=rb-4.0.3",
+          "https://images.unsplash.com/photo-1517651468335-5164984ba2c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwyfHxQaG90b2NvcHklMjBUb25lciUyMENhcnRyaWRnZXxlbnwwfHx8fDE3MzU2MjAwNjF8MA&ixlib=rb-4.0.3",
+          "https://images.unsplash.com/photo-1605118363618-757344cd6efb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHwzfHxQaG90b2NvcHklMjBUb25lciUyMENhcnRyaWRnZXxlbnwwfHx8fDE3MzU2MjAwNjF8MA&ixlib=rb-4.0.3",
+          "https://images.unsplash.com/photo-1680923180493-91cc22c5f88f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw0fHxQaG90b2NvcHklMjBUb25lciUyMENhcnRyaWRnZXxlbnwwfHx8fDE3MzU2MjAwNjF8MA&ixlib=rb-4.0.3",
+          "https://images.unsplash.com/photo-1606752096631-68d36ddca513?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2OTE3NTR8MHwxfHNlYXJjaHw1fHxQaG90b2NvcHklMjBUb25lciUyMENhcnRyaWRnZXxlbnwwfHx8fDE3MzU2MjAwNjF8MA&ixlib=rb-4.0.3"
+        ],
+        "price": "$45.00",
+        "variants": [],
+        "description": "Reliable and efficient toner cartridges compatible with most photocopiers. Delivers high-yield printing and excellent print quality.",
+        "preorder": false,
+        "shipping": "Ships worldwide with express tracking.",
+        "link": "https://zyvlon.com/collections/photocopying-supplies/products/photocopy-toner-cartridge"
+      }
+    ]
+  }
+]
